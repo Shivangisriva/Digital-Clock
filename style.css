@@ -1,0 +1,93 @@
+*
+{
+    margin :0;
+    padding: 0;
+}
+body{
+    background-color:#19172e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading
+{
+    min-height: 55vh;
+    width: 50vw;
+   color: white;
+   font-size: 1.75rem;
+   margin-top: 10vh;
+   text-align: center;
+}
+.clock
+{
+    background: url("./clock\ .png");
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin-left: 13rem;
+    margin-top: 5rem;
+    }
+    .hours
+    {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .hours .hrs{
+        width: 3px;
+        height: 70px;
+        position:relative;
+        background-color:white;
+        left: 0.5px;
+        border-radius: 4px;
+        transform-origin:bottom;
+        bottom: 55px;
+            
+    }
+     .seconds
+    {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .seconds .sec{
+        width: 3px;
+        height: 85px;
+        position:relative;
+        background-color: white;
+        transform-origin: bottom;
+        bottom: 71px;
+        left: 1px;
+    } 
+    .minutes
+    {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .minutes .min{
+        width: 2px;
+        height: 95px;
+        position:relative;
+        background-color:white;
+        border-radius: 2px;
+         left: 3px;
+         bottom: 80px;
+         transform-origin:bottom;
+    }
+    
+footer
+{
+    bottom: 0;
+    margin-bottom: 1rem;
+    position: absolute;
+    color:white;
+    text-align: center;
+}
+
